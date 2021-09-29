@@ -215,6 +215,7 @@ generate_url <- function(query, ...){
     switch(
       query,
       allsurveys = "{rooturl}/surveys/",
+      importsurvey = "{rooturl}/surveys/",
       allmailinglists = "{rooturl}/mailinglists/",
       metadata = "{rooturl}/surveys/{surveyID}/",
       fetchsurvey = "{rooturl}/surveys/{surveyID}/export-responses/",
